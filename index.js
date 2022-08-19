@@ -5,4 +5,4 @@ let DistanciaInicial = prompt("Ingrese la altura inicial, en metros (si quiere s
 let Resultado = DistanciaInicial + VelocidadInicial*Tiempo + 9.8*(Tiempo*Tiempo);
 
 console.log(Resultado);
-alert(Resultado);
+alert("El objeto recorrió un total de " + Resultado + "metros");
